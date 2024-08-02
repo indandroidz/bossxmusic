@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = 28051731
+API_HASH = "9257bdf547fe593596e11238c0b4e0c4"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = "7193743397:AAFKqJTZxocRWSGfqpFjGjkLxIz2tsoLexY"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://boss:boss@cluster0.xakwfgz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = -1002159896803
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6203163206"))
+OWNER_ID =1825061451
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -38,8 +38,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_GROUP", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/boss_igcc_store")
+SUPPORT_CHAT = getenv("SUPPORT_GROUP", "https://t.me/boss_ig_cc_chats")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -61,7 +61,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "BQGsCRMABLGkoH2hH6Z5a6sOfiKdwUzhf2vF2yV8tmLxFfJorBo_fvbQstYLsAPot-2xoq8seeuATLfe1YINdQsFsEaHCoQfnhJ36wIMPACKm0xiXPLXKV2bo1sxHWFN2FsWZVEK94Z6LSwvzYwn4ngFKdTjX1ggut-I3n4xTCRlWBkkezMNkWlZ9sa1VhiAZCt51e-h59E04D6gAZ_3i0dNUmLq3EgIr8YJNTUUIBTGqHVEJl7bBbJaVQwT4T9ytSgbSFloIoVK7kYmKpfcT_FI11kN6APNHIyHPC6ZztWE5qfznQQ1V5NuMUSoTL6v84MY_P5is6oGML_oxKAs1vC7sLMiGAAAAAGTVBsBAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -82,16 +82,16 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-STATS_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-STREAM_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/f9e554f3d754077aad5f5.jpg"
+STATS_IMG_URL = "https://graph.org/file/f9e554f3d754077aad5f5.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/91c7c12d1fd2c849118b4.mp4"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/91c7c12d1fd2c849118b4.mp4"
+STREAM_IMG_URL = "https://graph.org/file/91c7c12d1fd2c849118b4.mp4"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/91c7c12d1fd2c849118b4.mp4"
+YOUTUBE_IMG_URL = "https://graph.org/file/91c7c12d1fd2c849118b4.mp4"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/91c7c12d1fd2c849118b4.mp4"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/91c7c12d1fd2c849118b4.mp4"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/91c7c12d1fd2c849118b4.mp4"
 
 
 def time_to_seconds(time):
